@@ -1,0 +1,95 @@
+title: Glacient Docs
+description: Monitor, alert, and automate non-custodial DeFi workflows.
+url: https://docs.glacient.ai
+baseurl: ""
+
+author:
+  name: Glacient
+
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+  hard_wrap: false
+
+permalink: pretty
+
+plugins:
+  - jekyll-seo-tag
+
+defaults:
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: page
+
+nav:
+  - section: Get started
+    items:
+      - title: Introduction
+        url: /
+      - title: Quickstart
+        url: /quickstart/
+      - title: Sign in
+        url: /sign-in/
+  - section: Core concepts
+    items:
+      - title: Workflows
+        url: /concepts/workflows/
+      - title: Triggers
+        url: /concepts/triggers/
+      - title: Conditions
+        url: /concepts/conditions/
+      - title: Actions
+        url: /concepts/actions/
+      - title: Self-custody
+        url: /concepts/self-custody/
+  - section: Building workflows
+    items:
+      - title: The canvas
+        url: /canvas/
+      - title: Saving and running
+        url: /canvas/lifecycle/
+  - section: Protocols
+    items:
+      - title: Morpho
+        url: /protocols/morpho/
+      - title: Aave
+        url: /protocols/aave/
+      - title: Hyperliquid
+        url: /protocols/hyperliquid/
+      - title: Polymarket
+        url: /protocols/polymarket/
+  - section: Notifications
+    items:
+      - title: Telegram
+        url: /notifications/telegram/
+      - title: Alert lifecycle
+        url: /notifications/lifecycle/
+  - section: Spaces
+    items:
+      - title: Overview
+        url: /spaces/
+      - title: Sharing workflows
+        url: /spaces/sharing/
+  - section: Security
+    items:
+      - title: Security model
+        url: /security/
+  - section: Reference
+    items:
+      - title: Metrics catalog
+        url: /reference/metrics/
+      - title: Operators
+        url: /reference/operators/
+      - title: Chains
+        url: /reference/chains/
+
+exclude:
+  - README.md
+  - TEST_PAGE.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+  - node_modules
