@@ -33,6 +33,8 @@ nav:
         url: /quickstart/
       - title: Sign in
         url: /sign-in/
+      - title: Wallet login
+        url: /wallet-login/
   - section: Core concepts
     items:
       - title: Workflows
